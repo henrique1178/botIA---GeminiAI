@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 #carregar chave de API do arquivo .env para variável de ambiente
 load_dotenv()
-api_key = os.getenv("AIzaSyDA68QDg25uEoHOPvBsNRomHNF5vxwdbEc")
+api_key = os.getenv("SUA_CHAVE")
 
 genai.configure(api_key=api_key)
 
